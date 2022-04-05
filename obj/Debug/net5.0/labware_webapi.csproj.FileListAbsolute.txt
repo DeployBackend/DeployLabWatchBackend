@@ -80,8 +80,6 @@ C:\Users\39965709882\Desktop\apilab\labware_webapi\bin\Debug\net5.0\appsettings.
 C:\Users\39965709882\Desktop\apilab\labware_webapi\bin\Debug\net5.0\appsettings.json
 C:\Users\39965709882\Desktop\apilab\labware_webapi\bin\Debug\net5.0\labware_webapi.StaticWebAssets.xml
 C:\Users\39965709882\Desktop\apilab\labware_webapi\bin\Debug\net5.0\labware_webapi.exe
-C:\Users\39965709882\Desktop\apilab\labware_webapi\bin\Debug\net5.0\Perfil\1.png
-C:\Users\39965709882\Desktop\apilab\labware_webapi\bin\Debug\net5.0\Perfil\3.png
 C:\Users\39965709882\Desktop\apilab\labware_webapi\bin\Debug\net5.0\labware_webapi.deps.json
 C:\Users\39965709882\Desktop\apilab\labware_webapi\bin\Debug\net5.0\labware_webapi.runtimeconfig.json
 C:\Users\39965709882\Desktop\apilab\labware_webapi\bin\Debug\net5.0\labware_webapi.runtimeconfig.dev.json

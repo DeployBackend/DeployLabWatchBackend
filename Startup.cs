@@ -105,14 +105,14 @@ namespace labware_webapi
             app.UseRouting();
             app.UseCors("CorPolicy");
             app.UseAuthentication();
-            app.UseAuthorization();
+            //app.UseAuthorization();
 
-            app.UseStaticFiles(new StaticFileOptions
-            {
-                FileProvider = new PhysicalFileProvider(
-                       Path.Combine(Directory.GetCurrentDirectory(), "StaticFiles")),
-                RequestPath = "/StaticFiles"
-            });
+            //app.UseStaticFiles(new StaticFileOptions
+            //{
+            //    FileProvider = new PhysicalFileProvider(
+            //           Path.Combine(Directory.GetCurrentDirectory(), "StaticFiles")),
+            //    RequestPath = "/StaticFiles"
+            //});
 
 
             app.UseSwaggerUI(c => {
