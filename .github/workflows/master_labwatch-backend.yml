@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'LabWatch-Backend'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FA497E3639774F90AC690B771514DE8B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4F5326B7564B47C1B14CF09CBC65A53C }}
           package: .
