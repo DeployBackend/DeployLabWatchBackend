@@ -106,15 +106,20 @@ namespace labware_webapi
             app.UseCors("CorPolicy");
             app.UseAuthentication();
             app.UseAuthorization();
-            //app.UseStaticFiles();
 
+            app.UseStaticFiles();
 
-            //app.UseStaticFiles(new StaticFileOptions
-            //{
-            //    FileProvider = new PhysicalFileProvider(
-            //           Path.Combine(Directory.GetCurrentDirectory(), "StaticFiles")),
-            //    RequestPath = "/StaticFiles"
-            //});
+            var staticFilesFolder =
+    Configuration.GetSection("StaticFilesFolder").Value;
+            if (!string.IsNullOrWhiteSpace(staticFilesFolder))
+            {
+                app.UseStaticFiles(new StaticFileOptions
+                {
+                    FileProvider = new PhysicalFileProvider(
+                       Path.Combine(Directory.GetCurrentDirectory(), "StaticFiles")),
+                    RequestPath = "/StaticFiles"
+                });
+            }
 
 
             app.UseSwaggerUI(c => {
