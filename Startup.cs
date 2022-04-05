@@ -106,6 +106,7 @@ namespace labware_webapi
             app.UseCors("CorPolicy");
             app.UseAuthentication();
             app.UseAuthorization();
+            app.UseStaticFiles();
 
             app.UseStaticFiles(new StaticFileOptions
             {
