@@ -109,6 +109,7 @@ namespace labware_webapi
 
             app.UseStaticFiles();
 
+<<<<<<< HEAD
             var staticFilesFolder =
     Configuration.GetSection("StaticFilesFolder").Value;
             if (!string.IsNullOrWhiteSpace(staticFilesFolder))
@@ -120,6 +121,13 @@ namespace labware_webapi
                     RequestPath = "/StaticFiles"
                 });
             }
+=======
+            //app.UseStaticFiles(new StaticFileOptions
+            //{
+                //FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "StaticFiles/Images")),
+                //RequestPath = "/img"
+            //});
+>>>>>>> 2c871e3d4549f10e4466540bdece0ae63200fdb7
 
 
             app.UseSwaggerUI(c => {
