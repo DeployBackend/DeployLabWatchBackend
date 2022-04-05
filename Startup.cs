@@ -105,7 +105,12 @@ namespace labware_webapi
             app.UseRouting();
             app.UseCors("CorPolicy");
             app.UseAuthentication();
+<<<<<<< HEAD
             //app.UseAuthorization();
+=======
+            app.UseAuthorization();
+            app.UseStaticFiles();
+>>>>>>> e0d1d816e8db0e89055904e25342cb32b40f34da
 
             //app.UseStaticFiles(new StaticFileOptions
             //{
