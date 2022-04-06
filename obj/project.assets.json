@@ -7783,11 +7783,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\39965709882\\Desktop\\DeployLabWatchBackend\\labware_webapi.csproj",
+      "projectUniqueName": "C:\\Users\\39965709882\\Documents\\DeployLabWatchBackend\\labware_webapi.csproj",
       "projectName": "labware_webapi",
-      "projectPath": "C:\\Users\\39965709882\\Desktop\\DeployLabWatchBackend\\labware_webapi.csproj",
+      "projectPath": "C:\\Users\\39965709882\\Documents\\DeployLabWatchBackend\\labware_webapi.csproj",
       "packagesPath": "C:\\Users\\39965709882\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\39965709882\\Desktop\\DeployLabWatchBackend\\obj\\",
+      "outputPath": "C:\\Users\\39965709882\\Documents\\DeployLabWatchBackend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\39965709882\\AppData\\Roaming\\NuGet\\NuGet.Config",

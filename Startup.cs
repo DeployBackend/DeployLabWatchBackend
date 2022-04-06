@@ -107,19 +107,12 @@ namespace labware_webapi
             app.UseAuthentication();
             app.UseAuthorization();
 
-            app.UseStaticFiles();
-
-            var staticFilesFolder =
-    Configuration.GetSection("StaticFilesFolder").Value;
-            if (!string.IsNullOrWhiteSpace(staticFilesFolder))
+            app.UseStaticFiles(new StaticFileOptions
             {
-                app.UseStaticFiles(new StaticFileOptions
-                {
-                    FileProvider = new PhysicalFileProvider(
-                       Path.Combine(Directory.GetCurrentDirectory(), "StaticFiles")),
-                    RequestPath = "/StaticFiles"
-                });
-            }
+                FileProvider = new PhysicalFileProvider(
+                       Path.Combine(Directory.GetCurrentDirectory(), "StaticFiles/Images")),
+                RequestPath = "/img"
+            });
 
 
             app.UseSwaggerUI(c => {
