@@ -20,15 +20,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Perfil\" />
     <Folder Include="StaticFiles\Images\" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Perfil\1.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Perfil\3.png">
+    <None Update="StaticFiles\Images\riven-valiant-sword-prestige-league-of-legends-art_3840x2160_xtrafondos.com.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
